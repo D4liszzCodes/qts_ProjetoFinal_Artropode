@@ -6,13 +6,13 @@ ferramentas de teste, jest e sellenium para a realização de etsets unitários,
 
 ## Guia de Locação e Instalação - utilize qualquer prompt de comando (cmd, git bashe, powersheel etc)
 
-# após acessar a pasta do projeto inicialize o node com o comando *npm init*
-# em seguida instale o express com o comando *npm install express --save*
-# instale também o body-parser com o comando *npm install body-parser --save*
-# para se comunicar com o firebase e o firestore rode o comando *npm install firebase-admin --save*
-# instale o ejs para renderizar a página de listagem utilizando o comando *npm install ejs --save*
-# para migrar o firebase para o banco de dados mocado rode o comando *npm i sqlite sqlite3*
-# por fim para conduzir os testes unitários rode o comando *npx jest* , esse comando além de rodasr os teste também instala o jest automaticamente
+### após acessar a pasta do projeto inicialize o node com o comando *npm init*
+### em seguida instale o express com o comando *npm install express --save*
+### instale também o body-parser com o comando *npm install body-parser --save*
+### para se comunicar com o firebase e o firestore rode o comando *npm install firebase-admin --save*
+### instale o ejs para renderizar a página de listagem utilizando o comando *npm install ejs --save*
+### para migrar o firebase para o banco de dados mocado rode o comando *npm i sqlite sqlite3*
+### por fim para conduzir os testes unitários rode o comando *npx jest* , esse comando além de rodasr os teste também instala o jest automaticamente
 
 
 
