@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1> Listagem de Artropodes </h1>
+    <% artropodes.forEach(doc => { %>
+        <%= doc.data().nome %> : <%= doc.data().nome_cien %> : <%= doc.data().habitat %> : <%= doc.data().tempo_vida %> 
+        <br>
+    
+
+    <form action="/artropodes/update/<%= doc.id %>" method="POST">
+
+                <td><input type="text" name="nome" value="<%= doc.nome %>"></td>
+                <td><input type="text" name="nome_cien" value="<%= doc.nome_cien %>"></td>
+                <td><input type="text" name="habitat" value="<%= doc.habitat %>"></td>
+                <td><input type="number" name="tempo_vida" value="<%= doc.tempo_vida %>"></td>
+
+                <td>
+                    <button type="submit">Atualizar</button>
+            </form>
+
+            <!-- FORM DE DELETE -->
+            <form action="/artropodes/delete/<%= doc.id %>" method="POST">
+                <button type="submit" style="background:red; color:white;">Deletar</button>
+            </form>
+            
+            <% }); %>
+</body>
+</html>
