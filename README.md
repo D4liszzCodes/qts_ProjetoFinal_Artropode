@@ -16,4 +16,4 @@ ferramentas de teste, jest e sellenium para a realização de etsets unitários,
 
 
 
-~ Feito por: Dalia da Silva Oliveira e Leon Polati
+~ Feito por: Ana Clara de Lima André; Dalia da Silva Oliveira; Leon Polati e Renato Santos dos Barros Neto
